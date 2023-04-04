@@ -45,3 +45,38 @@ db.polls.aggregate([
     }
   }
 ])
+
+// Output
+
+// [
+//   {
+//     "polls": [
+//       {
+//         "count": 2,
+//         "maxvotedwith": "Wind",
+//         "post": "Which of the following is an example of a renewable energy source?"
+//       },
+//       {
+//         "count": 2,
+//         "maxvotedwith": "Jupiter",
+//         "post": "Which of the following is the largest planet in our solar system?"
+//       }
+//     ],
+//     "user": "Elizabeth"
+//   },
+//   {
+//     "polls": [
+//       {
+//         "count": 3,
+//         "maxvotedwith": "Carbon dioxide",
+//         "post": "Which of the following is a common greenhouse gas?"
+//       },
+//       {
+//         "count": 3,
+//         "maxvotedwith": "Ottawa",
+//         "post": "What is the capital city of Canada?"
+//       }
+//     ],
+//     "user": "johndoe"
+//   }
+// ]
